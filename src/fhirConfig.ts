@@ -80,6 +80,7 @@ export interface Auth {
 
 export interface Server {
     url: string;
+    alternativeUrls?: string[]
 }
 
 export interface Resource {
